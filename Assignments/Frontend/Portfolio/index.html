@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     a{
+          text-decoration: none;
+          color: white;
+     }
+     li{
+          list-style-type: none;
+     }
+     .header{
+          display: flex;
+          background-color: black;
+          color: white;
+          justify-content: space-between;
+          padding: 20px;
+          align-items: center;
+     }
+     .links ul {
+          display: flex;
+          gap: 80px;
+          text-decoration: none;
+
+     }
+      .section0 {
+        background-color: aqua;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .profileimg img {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+      }
+      .section1 {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid black;
+        height: 500px;
+        align-items: center;
+      }
+      .box {
+          padding: 10px;
+        border: 2px solid black;
+        height: auto;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h2>Farhan Attar</h2>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Academics</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section0">
+        <div class="profileimg">
+          <img
+            src="./imgs/EUPI4804.JPG"
+            alt=""
+          />
+        </div>
+        <div>
+          <h2>Farhan Attar</h2>
+          <p>Full Stack Developer</p>
+        </div>
+        <div class="socialLogos">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+      </section>
+      <section class="section1">
+        <div class="box">
+          <div>
+               <img src="./imgs/EUPI4804.JPG" height="100px" width="100px" alt="" style="border-radius: 50%;">
+          </div>
+          <div>
+               <h2>Skills</h2>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+               <img src="./imgs/EUPI4804.JPG" height="100px" width="100px" alt="" style="border-radius: 50%;">
+          </div>
+          <div>
+               <h2>Skills</h2>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+               <img src="./imgs/EUPI4804.JPG" height="100px" width="100px" alt="" style="border-radius: 50%;">
+          </div>
+          <div>
+               <h2>Skills</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+     
+    </footer>
+  </body>
+</html>
